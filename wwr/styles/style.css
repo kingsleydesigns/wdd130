@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Croissant+One&family=Montserrat&display=swap');
+
 #content {
     max-width: 1600px;
     margin: 0 auto;
@@ -6,6 +8,7 @@ nav a {
     text-align: center;
     color: black;
     text-decoration: none;
+    padding: 35px;
 }
 #hero-img{
     width: 100%;
@@ -23,7 +26,11 @@ main section {
     height: 725px;
 }
 body {
-    background-color: #fcfbfb; 
+    background-color: #fcfbfb;
+    font-family: 'montserrat', ' Helvetica', 'sans-serif'; 
+    font-size: 22px;
+    margin: 0;
+    padding: 0;
 }
 header {
     background-color:#8ecdeb;
@@ -36,6 +43,10 @@ nav a:hover {
     background-color: black;
     color: white;
     text-decoration: none;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
 }
 .book:hover, .join:hover {
     background-color: #8ecdeb;
@@ -47,10 +58,22 @@ nav a:hover {
 .msg {
     background-color:#196fb3;
     color: white;
+    line-height: 1.5em;
+    padding: 35px;
+}
+.msg h2{
+    font-family: 'croissant one','papyrus','sans-serif' ;
+}
+.msg p{
+    font-size: .8em;
+    padding-bottom: 15px;
+
 }
 footer {
     background-color: white;
     color: black;
+    padding: 25px 50px;
+    margin-top: 200px;
 }
 footer a {
     color: black;
@@ -64,12 +87,35 @@ footer p a:hover {
 footer p {
     font-size: 1.2em;
 }
+footer .social img {
+    padding-top: 15px;
+}
 .home-title {
     color: #196fb3;
+    font-family: 'croissant one','papyrus','sans-serif' ;
+    font-size: 2em;
+    margin-top: 10px;
 }
 h4 {
     color: #196fb3;
 }
+h2 {
+    margin: 0;
+}
 .logo, .icon{
     width: 80px;
+    padding-top: 10px;
+    
+}
+#logo_link {
+    padding-top: 5px;
+}
+.rivers-card, .camping-card, .rapids-card {
+    margin: 200px 0;
+}
+.card-img {
+    border: 10px solid #196fb3;
+}
+main section img {
+    box-sizing: border-box;
 }
