@@ -6,6 +6,73 @@
     <title>Whitewater Rafting Vacations | Dry Oar Boating | FAQ".</title>
     <link rel="stylesheet" href="styles/style.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+    <style>
+        #Accordion {
+            width: 100%;
+            margin: 0 auto;
+        }
+
+        .FAQ {
+            text-align: center;
+            padding: 20px;
+        }
+
+        input[type="checkbox"] {
+            display: none;
+        }
+
+        label {
+            display: block;
+            padding: 10px 20px;
+            margin: 0 0 1px 0;
+            cursor: pointer;
+            background: #8ecdeb;
+            border-radius: 3px;
+            color: black;
+            transition: background 0.5s ease;
+            position: relative;
+        }
+
+        label:hover {
+            background: #196fb3;
+        }
+
+        /* Adjust the styling for the checked state */
+        input[type="checkbox"]:checked + label {
+            background: #196fb3;
+        }
+
+        .panel {
+            background: white;
+            padding: 20px 20px;
+            border: 1px solid #A7A7A7;
+            margin: 0 0 1px 0;
+            border-radius: 10px;
+            max-height: 0;
+            overflow: hidden;
+            transition: max-height 0.5s ease;
+        }
+
+        /* Adjust the max-height when the checkbox is checked */
+        input[type="checkbox"]:checked + label + .panel {
+            max-height: 1000px; 
+            display: block;
+        }
+
+        label::after {
+            font-family: "Font Awesome 5 Free";
+            content: '\f078';
+            font-weight: bold;
+            font-size: 22px;
+            position: absolute;
+            right: 10px;
+            top: 6px;
+        }
+
+        input:checked + label::after {
+            content: '\f077';
+        }
+    </style>
 </head>
 <body>
     <div id="content">

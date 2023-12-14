@@ -186,7 +186,7 @@ main section img {
 }
 
 /* Below is the css for my child page; FAQ page*/
-
+/*
 #Accordion {
     width: 100%;
     margin: 0 auto;
@@ -218,7 +218,7 @@ label:hover {
 }
 
 /* Adjust the styling for the checked state */
-input[type="checkbox"]:checked + label {
+/*input[type="checkbox"]:checked + label {
     background: #196fb3;
 }
 
@@ -234,7 +234,7 @@ input[type="checkbox"]:checked + label {
 }
 
 /* Adjust the max-height when the checkbox is checked */
-input[type="checkbox"]:checked + label + .panel {
+/*input[type="checkbox"]:checked + label + .panel {
     max-height: 1000px; 
     display: block;
 }
@@ -252,7 +252,7 @@ label::after {
 input:checked + label::after {
 	content: '\f077';
 }
-
+*/
 
 @media screen and (max-width: 900px) {
     #hero, .home-grid {
