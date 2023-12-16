@@ -89,14 +89,14 @@ main h1{
     max-width: 100%;
     grid-column: 2 / 3;
     grid-row: 1/ 2;
-    padding-top: 80px;
+    padding-top: 50px;
 }
 .button-box {
   text-align: left;
   align-self: center; 
   grid-column: 2 / 3;
   grid-row: 1 / 2;
-  padding-top: 320px;
+  padding-top: 390px;
 }
 .creators-card {
     display: grid;
@@ -123,14 +123,14 @@ main h1{
     max-width: 100%;
     grid-column: 1 / 2;
     grid-row: 1 / 2;
-    padding-top: 80px;
+    padding-top: 50px;
 }
 .button-box1 {
     text-align: left;
     align-self: center; 
     grid-column: 1 / 2;
     grid-row: 1 / 2;
-    padding-top: 320px;
+    padding-top: 390px;
 }
 .view {
     background-color: black;
