@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Croissant+One&family=Montserrat&display=swap');
+
+body{
+    font-family: var(--paragraph-font);
+    max-width: 960px;
+} 
+:root {
+    --primary-color: #196fb3;
+    --secondary-color: #fafbfe;
+    --accent1-color: #8ecdeb;
+    --accent2-color: #e09416;
+  
+    --heading-font: "Croissant One", serif;
+    --paragraph-font: "Montserrat", Helvetica, sans-serif;
+  
+    --nav-background-color: #8ecdeb;
+    --nav-link-color: #396E94;
+    --nav-hover-link-color: white;
+    --nav-hover-background-color: #196fb3;
+  }
+  h1, h2, h3, h4, h5, h6 {
+    font-family: var(--heading-font);
+    color: var(--primary-color);
+  }
+  p{
+    padding: 25px;
+  }
+  footer a {
+    text-decoration: none;
+  }
+  .hero {
+    position: relative;
+  }
+  .hero img {
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+  .hero h1 {
+    position: absolute;
+    top: 20px;
+    left: 300px;
+    background-color: antiquewhite;
+  }
+  .hero article {
+    position: absolute;
+    top: 270px;
+    left: 90px;
+    background-color: antiquewhite;
+    opacity: 90%;
+    width: 80%;
+  }
+  .hero article img {
+    float: right;
+    max-width: fit-content;
+  }
