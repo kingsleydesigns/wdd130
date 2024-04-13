@@ -2,7 +2,6 @@
 
 body{
     font-family: var(--paragraph-font);
-    max-width: 960px;
 } 
 :root {
     --primary-color: #196fb3;
@@ -25,9 +24,6 @@ body{
   p{
     padding: 25px;
   }
-  footer a {
-    text-decoration: none;
-  }
   .hero {
     position: relative;
   }
@@ -39,18 +35,94 @@ body{
   .hero h1 {
     position: absolute;
     top: 20px;
-    left: 300px;
+    left: 0;
+    width: 100%;
     background-color: antiquewhite;
+    text-align: center;
+    opacity: 80%;
   }
   .hero article {
     position: absolute;
-    top: 270px;
-    left: 90px;
+    top: 400px;
+    left: 120px;
     background-color: antiquewhite;
-    opacity: 90%;
+    opacity: 80%;
     width: 80%;
+    
   }
   .hero article img {
     float: right;
     max-width: fit-content;
+  }
+  header{
+    display:grid;
+    grid-template-columns: 1fr 3fr;
+    align-items: center;
+    margin: 1rem auto;
+    background-color: var(--nav-background-color);
+  }
+  nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  nav a{
+    text-decoration: none;
+    padding: 5px 35px;
+  }
+  nav a:hover{
+    background-color: var(--nav-hover-background-color);
+    color: var(--nav-hover-link-color);
+  }
+  header img{
+    max-width:100px;
+    justify-self: center;
+    align-self: center;
+  }
+  .history{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+  }
+  .first{
+    grid-column: 1/2;
+    padding: 0;
+  }
+  .history h2{
+    grid-column: 1/-1;
+    text-align: center;
+  }
+  .history img{
+    grid-column: 2/3;
+    padding-top: 20px;
+    margin: 0 auto;
+  }
+  .second{
+    grid-column: 3/4;
+    padding: 0;
+  }
+  .adventure{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+  }
+  .adventure img{
+    max-width: 100%;
+  }
+  .adventure h2{
+    grid-column: 1/-1;
+    text-align: center;
+
+  }
+  figcaption{
+    text-align: center;
+  }
+  footer {
+    background-color: var(--nav-background-color);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+  footer a{
+    margin: 0;
+    padding: 10px;
+    text-decoration: none;
   }
