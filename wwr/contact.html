@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Dry Oar Boating | Contact Us</title>
+    <meta name="description" content="This is a Contact us page which includes contact information and a contact form which the user can submit to ask questions about the company and its services.">
+    <link rel="stylesheet" href="styles/rafting.css">
+</head>
+<body>
+    <header>
+        <img src="images/logo.png" alt="Website logo">
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="about.html">About Us</a>
+            <a href="trips.html">Trips</a>
+            <a href="contact.html">Contact Us</a>
+        </nav>
+    </header>
+    <main>
+        <section class="company-info">
+            <h2>Company Information</h2>
+            <address>
+                123 River Street, Adventure City<br>
+                New Jersey, United States, 07014
+            </address>
+            <p>Phone: 123-456-7890</p>
+            <p>Email: info@raftingcompany.com</p>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d392812.14166475605!2d-75.12456845651958!3d39.72066918646602!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c0fb959e00409f%3A0x2cd27b07f83f6d8d!2sNew%20Jersey%2C%20USA!5e0!3m2!1sen!2sng!4v1713071629778!5m2!1sen!2sng" width="600" height="450" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </section>
+
+        <section class="employee-profiles">
+            <h2>Meet Our Team</h2>
+            <figure>
+                <img src="images/employee1.jpg" alt="Employee 1">
+                <figcaption>Mary Lacrosse - Rafting Guide</figcaption>
+            </figure>
+            <figure>
+                <img src="images/employee2.jpg" alt="Employee 2">
+                <figcaption>Jane Smith - River Safety Instructor</figcaption>
+            </figure>
+            <figure>
+                <img src="images/employee3.jpg" alt="Employee 3">
+                <figcaption>Mike Johnson - Customer Service Representative</figcaption>
+            </figure>
+        </section>
+
+        <section class="contact-form">
+            <h2>Contact Us</h2>
+            <form action="#" method="POST">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+                
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <div class="radio-options">
+                    <label for="inquiry"><input type="radio" id="inquiry" name="purpose" value="inquiry">General Inquiry</label>
+                    <label for="reservation"><input type="radio" id="reservation" name="purpose" value="reservation">Reservation Question</label>
+                    <label for="suggestion"><input type="radio" id="suggestion" name="purpose" value="suggestion">Website Suggestion</label>
+                </div>
+
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" rows="4" required></textarea>
+
+                <label class="subscribe-label">
+                    Please subscribe me to the monthly newsletter
+                    <input type="checkbox" name="subscribe" value="yes">
+                  </label>
+
+                <button type="submit">Submit message here</button>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <p>©2024 | Dry Oar Boating | Kingsley Ezepue</p>
+        <a href="https://wireframe.cc/xjEfp4">Wireframe image</a>
+        <nav class="sociallinks">
+            <a href="https://facebook.com" target="_blank">
+                <img src="images/facebook.png" alt="fb icon">
+            </a>
+            <a href="https://twitter.com" target="_blank">
+                <img src="images/twitter.png" alt="twitter icon">
+            </a>
+            <a href="https://instagram.com" target="_blank">
+                <img src="images/instagram.png" alt="instagram icon">
+            </a>
+        </nav>
+    </footer>
+</body>
+</html>
