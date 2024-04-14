@@ -140,13 +140,23 @@ body{
   border-radius: 10px;
 }
 
+.company-info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
 .company-info h2,
 .employee-profiles h2,
 .contact-form h2 {
   margin-bottom: 15px;
   color: var(--primary-color);
+  text-align: center;
 }
-
+.header {
+  text-align: center;
+}
 .company-info address,
 .company-info p {
   margin-bottom: 10px;
