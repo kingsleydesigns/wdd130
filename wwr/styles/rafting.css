@@ -349,9 +349,9 @@ main {
 
 .home-hero h1{
   font-size: 2rem;
-  font-weight: 700;
+  font-weight: bold;
   left: 0;
-  background-color: antiquewhite;
+  background-color: white; 
   text-align: center;
   opacity: 70%;
 }
@@ -370,6 +370,9 @@ main {
   color: #fff;
 }
 
+.newsletter h2{
+  text-align: center;
+}
 .newsletter,
 .call-to-action {
   margin-bottom: 20px;
@@ -382,11 +385,30 @@ main {
   border-radius: 10px;
 }
 
+.newsletter {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.newsletter input[type="text"],
+.newsletter input[type="email"] {
+  width: 100%;
+  padding: 1px;
+  margin-bottom: 15px;
+  border: 1px solid var(--accent1-color);
+  border-radius: 5px;
+}
+
+.call-to-action {
+  text-align: center;
+}
 .newsletter h2,
 .call-to-action h2 {
   margin-top: 0;
   margin-bottom: 10px;
 }
+
 
 .newsletter label,
 .newsletter input,
@@ -394,6 +416,7 @@ main {
 .call-to-action .cta-button {
   display: block;
   margin-bottom: 10px;
+  
 }
 
 .grid-layout {
@@ -410,6 +433,7 @@ main {
 
 .grid-item h3 {
   margin-top: 0;
+  text-align: center;
 }
 
 .grid-item p {
