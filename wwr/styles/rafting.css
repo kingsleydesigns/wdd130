@@ -333,3 +333,85 @@ body{
 .trip-table tbody tr:nth-child(even) {
   background-color: #f2f2f2;
 }
+
+
+/* home.css */
+/* Additional CSS rules needed for the home page */
+
+main {
+  padding: 20px;
+}
+
+.home-hero {
+  position: relative;
+  margin-bottom: 20px;
+}
+
+.home-hero h1{
+  font-size: 2rem;
+  font-weight: 700;
+  left: 0;
+  background-color: antiquewhite;
+  text-align: center;
+  opacity: 70%;
+}
+
+.home-hero img {
+  width: 100%;
+  height: auto;
+}
+
+.hero-overlay {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: #fff;
+}
+
+.newsletter,
+.call-to-action {
+  margin-bottom: 20px;
+}
+
+.newsletter form,
+.call-to-action {
+  background-color: #f9f9f9;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.newsletter h2,
+.call-to-action h2 {
+  margin-top: 0;
+  margin-bottom: 10px;
+}
+
+.newsletter label,
+.newsletter input,
+.call-to-action p,
+.call-to-action .cta-button {
+  display: block;
+  margin-bottom: 10px;
+}
+
+.grid-layout {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-gap: 20px;
+}
+
+.grid-item img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+
+.grid-item h3 {
+  margin-top: 0;
+}
+
+.grid-item p {
+  margin-bottom: 0;
+}
